@@ -7,10 +7,10 @@ a)  a = 0
 ```
 ```
 b)  sum = 0
-    for (i = 0; i < n; i++)
-      for (j = i + 1; j < n; j++)
-        for (k = j + 1; k < n; k++)
-          for (l = k + 1; l < 10 + k; l++)
+    for (i = 0; i < n; i++) #N
+      for (j = i + 1; j < n; j++) N2
+        for (k = j + 1; k < n; k++) N3
+          for (l = k + 1; l < 10 + k; l++) N4
             sum++
 ```
 ```
@@ -22,3 +22,4 @@ c)  bunnyEars = function(bunnies) {
 
 **Exercise II**:
 Suppose that you have an _n_-story building and plenty of eggs. Suppose also that an egg gets broken if it is thrown off floor _f_ or higher, and doesn't get broken if dropped off a floor less than floor _f_. Devise a strategy to determine the value of _f_ such that the number of dropped eggs is minimized.
+
