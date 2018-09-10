@@ -1,7 +1,7 @@
 Add your answers to the Algorithms exercises here.
-a. O(N)
-b. O(N^4)
-c. O(1)
+a. O(n)
+b. O(N^3)
+c. O(n)
 d. My strategy would be to use Divide and Conquer. Go to the midpoint of the building,
 drop an egg and if it breaks, assume that anything dropped from higher will also break.
 
